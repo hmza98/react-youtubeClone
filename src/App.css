@@ -1,0 +1,47 @@
+body{
+  background-color:rgb(250, 250, 250)
+}
+a{
+  text-decoration-style: none ;
+}
+.header{
+  display: flex;
+  border-bottom: 1px solid rgb(177, 177, 177) ;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.search-form{
+  
+  min-width:50%;
+}
+.search-input{
+  min-width: 80%;
+
+}
+.card {
+  margin: 60px;
+  
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  
+}
+  
+.thumbnail{
+  width: 30%;
+}
+
+
+.player-window{
+  display: flex;
+  flex-direction: row;
+  
+  width: 100%;
+}
+
+
+.video-iframe{
+  margin: 40px;
+ 
+}
